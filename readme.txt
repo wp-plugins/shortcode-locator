@@ -8,7 +8,7 @@ Stable tag: 4.1.1
 Quickly locate what and where shortcodes are being used.
 
 == Description ==
-Locator to move away from a theme that utilizes a lot of shortcodes? Deactivating a plugin and want to make sure none of your pages break in the process? Shortcode Locator allows you to view where shortcodes are being used throughout your site. You can filter results by a specific shortcode or post type.
+Looking to move away from a theme that utilizes a lot of shortcodes? Deactivating a plugin and want to make sure none of your pages break in the process? Shortcode Locator allows you to view where shortcodes are being used throughout your site. You can filter results by a specific shortcode or post type.
 
 Want to view shortcodes in use while managing your posts? Enable the Shortcodes Located display column feature on the Shortcode Locator settings page.
 
