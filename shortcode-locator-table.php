@@ -31,7 +31,7 @@
 			
 			return array(
 				'title'			=>	'Post Title',
-				'type'			=>	'Post Type',
+				'post_type'		=>	'Post Type',
 				'shortcodes'	=>	'Shortcodes Used'
 			);
 			
@@ -40,7 +40,10 @@
 		/* Set table sortable columns */
 		function get_sortable_columns() {
 			
-			return array();
+			return array(
+				'title'			=>	array( 'title', true ),
+				'post_type'		=>	array( 'post_type', false )
+			);
 			
 		}
 				
@@ -76,7 +79,7 @@
 					'id'			=>	$post->ID,
 					'shortcodes'	=>	Shortcode_Locator::get_shortcodes_for_post( $post->post_content ),
 					'title'			=>	$post->post_title,
-					'type'			=>	Shortcode_Locator::$post_types[$post->post_type]
+					'post_type'		=>	Shortcode_Locator::$post_types[$post->post_type]
 				);
 				
 			}

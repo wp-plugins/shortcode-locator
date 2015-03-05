@@ -4,11 +4,10 @@
 	Plugin Name: Shortcode Locator
 	Plugin URI: http://travislop.es/plugins/shortcode-locator/
 	Description: Quickly locate what and where shortcodes are being used
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: travislopes
 	Author URI: http://travislop.es
 	*/
-	
 	
 	class Shortcode_Locator {
 		

@@ -21,12 +21,8 @@ Want to view shortcodes in use while managing your posts? Enable the Shortcodes 
 1. Upload all files to the `/wp-content/plugins/` directory, with folder
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-== Screenshots ==
-
-1. View all the shortcodes on your website at once, with filtering by post type and shortcode.
-2. Enable the “Shortcodes Located” post column on various post types on your website
-
-
 == Changelog ==
+= v1.0.1 =
+* Made post title and type columns sortable
 = v1.0.0 =
 * Initial release
